@@ -1,0 +1,38 @@
+{
+  "name": "express-mad-logger",
+  "version": "1.0.0",
+  "description": "Express request logger based on mad-logger",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomimelo/express-mad-logger.git"
+  },
+  "keywords": [
+    "express",
+    "mad-logger",
+    "winston",
+    "pino",
+    "logger",
+    "logs",
+    "logging",
+    "console",
+    "file",
+    "stream",
+    "mdw",
+    "middleware"
+  ],
+  "author": "Tomás Melone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomimelo/express-mad-logger/issues"
+  },
+  "homepage": "https://github.com/tomimelo/express-mad-logger#readme",
+  "files": [
+    "lib/**/*"
+  ]
+}
