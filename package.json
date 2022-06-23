@@ -34,5 +34,8 @@
   "homepage": "https://github.com/tomimelo/express-mad-logger#readme",
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "devDependencies": {
+    "mad-logger": "^1.0.1"
+  }
 }
