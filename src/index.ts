@@ -1,9 +1,9 @@
 import { NextFunction, Request, Response } from 'express'
-import { Logger } from 'mad-logger'
 import { v4 as uuidv4 } from 'uuid'
+import { MadLogger } from 'mad-logger'
 
 export const expressMadLogger = {
-  getMiddleware: (parentLogger: Logger) => {
+  getMiddleware: (parentLogger: MadLogger) => {
     const logger = parentLogger.child('request-logger')
     return function (req: Request, res: Response, next: NextFunction) {
       const reqId = uuidv4()
